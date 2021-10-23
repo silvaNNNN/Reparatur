@@ -1,0 +1,344 @@
+html, body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+  background-color: white;
+  background-size: auto;
+	font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+#main {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header {
+    margin:0 auto;
+	width: 100%;
+	background-color: #292929;
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+	font-size: 15px;
+	color: black;
+}
+
+.icons {
+	margin: 0 auto;
+
+
+}
+
+h1{
+	text-align: center;
+  color: white;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+div.col {
+	align-items: space-around;
+		box-sizing: border-box;
+      transition: all 0.3s ease-in-out;
+}
+
+.navigation {
+	margin: 0 auto;
+	width: 65%;
+  font-size: 15px;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #545454;
+}
+
+.nav-link {
+	color: white;
+}
+
+a.nav-link:hover{
+	color: gray;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+body > header > div > ul > li.nav-item.dropdown > ul {
+	width:100%;
+    margin-top: 14% !important;
+    text-align: center;
+    background-color: #292929
+}
+
+.dropdown-item{
+    color: white;
+    background-color: #292929
+}
+
+
+section {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+            background-image:url("pictures/ramshid-ekl-prS29FRSPto-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+
+
+
+}
+
+
+#slider{
+width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    
+}
+#demo{
+    border-radius: 0px;
+	margin: 0 auto;
+   width: 100%;
+    background-color: gainsboro;
+}
+
+
+
+
+#demo > div.carousel-inner > div.carousel-item > img{
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  #demo > div.carousel-inner > div.carousel-item > img{
+     object-fit: cover;
+  object-position: center;
+  height: 200px;
+  overflow: hidden;;
+  }
+}
+
+
+.IMGPLACEHOLDER{
+    width: auto;
+    height:400px;
+    background-image:url("pictures/alessio-soggetti-rSFxBGpnluw-unsplash.jpg");
+         background-position: center;
+    background-size: cover;
+}
+
+
+
+.maintext{
+	margin: 0 auto;
+	text-align: center;
+}
+
+aside {
+	color: black;
+  background-color: white;
+}
+
+body > main > div.asidetext > div{
+    margin: 0 auto;
+        align-content: center;
+}
+
+
+footer {
+	color: white;
+  background-color: #292929;
+	text-align: center;
+}
+
+.footercontent {
+	margin: 0 auto;
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+#herocards{
+	margin: 0 auto;
+}
+
+#hero {
+  width: 100%;
+  position: relative;
+  background: url("../img/hero-bg.jpg") top center;
+  padding: 25px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+    justify-content: space-between;
+}
+#hero:before {
+  content: "";
+    
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 00px;
+  color: #fff;
+  background: #2487ce;
+}
+#hero .btn-get-started:hover {
+  background: #3194db;
+}
+#hero .icon-boxes {
+  margin-top: 0px;
+
+}
+#hero .icon-box {
+  padding: 50px 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  background-color:#383838 ;
+  color: white;
+    
+}
+#hero .icon-box .title {
+  font-weight: 700;
+  font-size: 18px;
+       color: white;
+}
+#hero .icon-box .title a {
+  color: #124265;
+  transition: 0.3s;
+       color: white;
+}
+#hero .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+#hero .icon-box .icon {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 36px;
+  line-height: 1;
+       color: white;
+}
+#hero .icon-box:hover {
+  transform: scale(1.08);
+}
+#hero .icon-box:hover .title a {
+  color: #2487ce;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-height: 800px) {
+  #hero {
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  #hero {
+    height: auto;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+
+
+
+
+
+
+#icons {
+    align-content: center;
+}
+
+.col-md {
+    width: 50%;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+
+    border-width: 1px;
+
+}
+
+.whyus{
+    width: 100%;;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.text1{
+    text-align: left;
+}
+
+.secondtitle{
+    color: white;
+}
+
+
+
+
+.smartphone-container-maintext{
+    background-color: white;
+}
+
+.smartphone-maintext {
+    background-color: white;
+}
+
+
+.smartphone-form{
+
+    
+}
+
+.smartphone-container-form{
+    background-color:white;
+}
+
+body > main > section > div.smartphone-form.container-md > div > div{
+    text-align: left;
+}
